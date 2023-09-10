@@ -1,0 +1,97 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E1341E;
+  overflow: visible;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.App-header img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  padding: 6px;
+  background-color: #1ECBE1;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.messagesList {
+  padding: 20px 0;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+  flex-grow: 1;
+  overflow: auto;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.messMessages {
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  background-color: #fbd8ae;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.mainUser {
+  background-color: #73dfe3;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+.inputText {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 3px solid #E1341E;
+  flex-grow: 1;
+}
+
+.button {
+  padding: 15px 30px; 
+  font-size: 18px; 
+  background-color: #1ECBE1;
+  color: #fff;
+  border: 2px solid #007b8c ; 
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px; 
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #007b8c; 
+}
+
+.button:active {
+  transform: scale(0.95);
+}
